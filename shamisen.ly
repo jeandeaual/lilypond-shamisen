@@ -17,6 +17,11 @@ tsugaru-signs-with-flats =
    10 11 12 13 "14♭" 14 15 16 17 18 19 "20♭"
    20 21 22 23 "24♭" 24 25 26)
 
+tsugaru-signs-with-sharps-and-flats =
+#'( 0  1  2  3  "♯"  4  5  6  7  8  9  "♭"
+   10 11 12 13 "1♯" 14 15 16 17 18 19 "1♭"
+   20 21 22 23 "2♯" 24 25 26)
+
 #(define (custom-tab-format tab-signs)
   (lambda (context string-number fret-number)
     (let* ((ls-length (length tab-signs))
